@@ -22,6 +22,7 @@ button,
 input,
 textarea {
   font-family: 'Open Sans', sans-serif;
+  background-color: white;
 }
 
 a {
@@ -959,11 +960,7 @@ header .column-2 {
     color: white;
   }
 
-  #navi-toggle:checked + nav {
-    visibility: visible;
-  }
-
-  #navi-toggle:not(:checked) + nav {
+  nav {
     display: block;
     visibility: hidden;
     top: 0;
