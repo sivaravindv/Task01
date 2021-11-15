@@ -1074,6 +1074,13 @@ header .column-2 {
   .start-btn {
     display: inline-block;
   }
+  .feedback-title {
+    font-size: 2rem;
+  }
+
+  .customer-section .text {
+    font-size: 0.8rem;
+  }
 }
 /* .hamburger {
     visibility: visible;
