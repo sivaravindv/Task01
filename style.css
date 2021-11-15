@@ -961,12 +961,15 @@ header .column-2 {
   }
 
   nav {
-    display: block;
-    visibility: hidden;
+    display: none;
     top: 0;
     background-color: blue;
     text-align: center;
     z-index: 1500;
+  }
+
+  #navi-toggle:checked + nav {
+    display: block;
   }
   .links ul li {
     width: 100%;
