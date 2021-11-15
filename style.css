@@ -1067,8 +1067,12 @@ header .column-2 {
 
   .plan {
     min-width: 48%;
-
+    height: 40em;
     margin-top: 3rem;
+  }
+
+  .start-btn {
+    display: inline-block;
   }
 }
 /* .hamburger {
