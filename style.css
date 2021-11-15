@@ -960,9 +960,11 @@ header .column-2 {
     color: white;
     background-color: rgb(122, 122, 155);
   }
-  nav {
-    display: block;
 
+  input[type='checkbox']:checked + nav {
+    display: block;
+    visibility: hidden;
+    top: 0;
     background-color: blue;
     text-align: center;
     z-index: 1500;
@@ -991,9 +993,6 @@ header .column-2 {
   }
   .login-btn {
     height: 3rem;
-  }
-
-  .hamburger__checkbox:not(:checked) + nav {
   }
 
   .header-content .grid-2,
