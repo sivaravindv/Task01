@@ -128,7 +128,6 @@ header {
   font-weight: 700;
   font-size: 2rem;
   color: white;
-  background-color: rgb(122, 122, 155);
 }
 .header-content .container {
   overflow: hidden;
@@ -958,10 +957,13 @@ header .column-2 {
     font-weight: 700;
     font-size: 2rem;
     color: white;
-    background-color: rgb(122, 122, 155);
   }
 
-  input[type='checkbox']:checked + nav {
+  #navi-toggle:checked + nav {
+    visibility: visible;
+  }
+
+  #navi-toggle:not(:checked) + nav {
     display: block;
     visibility: hidden;
     top: 0;
